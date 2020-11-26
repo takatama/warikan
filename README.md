@@ -14,6 +14,40 @@
     - warikan.py  : プロダクトコード。
     - __init__.py : このディレクトリをパッケージとして認識させる。
 
+## Visual Studio Codeでのセットアップ
+
+### git cloneする
+
+1. Visual Studio Codeを起動する。
+2. ```Ctrl + Shift + P```でコマンドパレットを開き、```git clone```と入力する。
+3. repository URLに```https://github.com/takatama/warikan```と入力する。
+4. warikanをcloneするディレクトリーを選択する。
+
+### 仮想環境を作る（環境を汚したくない場合）
+
+settings.jsonが書き換わる。
+
+1. ```Ctrl + ` ``` でターミナルを開く。
+2. 以下のコマンドをターミナルに入力し、```.venv```という名前の仮想環境を作ってアクティベートする。
+
+```console
+PS C:\Users\User1\Documents\warikan> py -m venv .venv
+PS C:\Users\User1\Documents\warikan> .\.venv\Scripts\activate
+(.venv) PS C:\Users\User1\Documents\warikan> 
+```
+
+3. ```Ctrl + Shift + P```でコマンドパレットを開き、```python select interpreter```と入力する。
+4. ```.venv```以下のものを選択する。settings.jsonに追記される。
+
+## Visual Studio Codeでのテスト実行
+
+Visual Studio Codeを起動するたびに実施する必要があるので注意する。
+
+1. ```Ctrl + Shift + P```でコマンドパレットを開き、```python discover tests```と入力する。
+2. Visual Studio Codeの左端にフラスコアイコン（Test）が表示される。
+3. テストを実行する。
+4. テストの出力結果を参照したい場合は、コマンドパレットを開き、```python show test outputs```と入力する。
+
 ## Warikan.calcの仕様
 
 ### Step1
