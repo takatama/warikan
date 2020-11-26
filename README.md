@@ -1,20 +1,18 @@
 # 割り勘計算
 
 ## ファイルの説明
-warikan
-│  .gitignore : Gitで管理しないファイル。https://github.com/github/gitignore/blob/master/Python.gitignore
-│  README.md : 本ファイル
-│
-├─.vscode
-│      settings.json : Visual Studo Codeの設定ファイル。pythonのunittestを使う。
-│
-├─tests
-│      test_warikan.py : テストコード。
-│      __init__.py : このディレクトリをパッケージとして認識させる。
-│
-└─warikan
-       warikan.py  : プロダクトコード。
-       __init__.py : このディレクトリをパッケージとして認識させる。
+
+- warikan
+  - .gitignore : Gitで管理しないファイル。https://github.com/github/gitignore/blob/master/Python.gitignore
+  - README.md : 本ファイル
+  - .vscode
+    - settings.json : Visual Studo Codeの設定ファイル。pythonのunittestを使う。
+  - tests
+    - test_warikan.py : テストコード。
+    - __init__.py : このディレクトリをパッケージとして認識させる。
+  - warikan
+    - warikan.py  : プロダクトコード。
+    - __init__.py : このディレクトリをパッケージとして認識させる。
 
 ## Warikan.calcの仕様
 
