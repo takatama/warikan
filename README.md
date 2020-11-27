@@ -76,3 +76,6 @@ Visual Studio Codeを起動するたびに実施する必要があるので注�
 - [飲み会の割り勘ドメイン](https://github.com/j5ik2o/warikan-domain-java)
 - [26.4. unittest — ユニットテストフレームワーク — Python 3.5.4 ドキュメント](
 https://docs.python.org/ja/3.5/library/unittest.html)
+- [Using Python Environments in Visual Studio Code](https://code.visualstudio.com/docs/python/environments)
+- [仮想環境 - python.jp](https://www.python.jp/install/windows/venv.html)
+- [Testing Python in Visual Studio Code](https://code.visualstudio.com/docs/python/testing)
