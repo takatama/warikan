@@ -14,6 +14,18 @@
     - warikan.py  : プロダクトコード。
     - __init__.py : このディレクトリをパッケージとして認識させる。
 
+## WSL2 + Visual Studio Code でのセットアップ
+
+1. ubuntu2004を起動して、以下の（$以降の）コマンドを入力していく。
+1. $ git clone https://github.com/takatama/warikan.git
+1. $ cd warikan
+1. $ git config user.name <ユーザー名>
+1. $ git config user.email <GitHubで使うメールアドレス>
+1. $ code . 
+1. Visual Studio Code と WSL の通信が完了するのを待つ。サジェストされる拡張をインストールする。
+1. Visual Studio Codeで Ctrl + Shift + P を入力してコマンドパレットを開き、```Python: Discover Tests```を実行する。
+1. Visual Studio Codeの左ペイン一番下にフラスコアイコンが表示される。クリックして、必要なテストを実行する。
+
 ## Visual Studio Codeでのセットアップ
 
 ### git cloneする
